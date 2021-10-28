@@ -54,3 +54,35 @@ const segitigaEmpat = (angkaEmpat) => {
 }
 
 segitigaEmpat(6)
+console.log()
+
+const segitigaLima = (angkaLima) => {
+    for (let i = 1; i <= angkaLima; i++) {
+        let bintangLima = ''
+        for (let j = 1; j < i; j++) {
+            bintangLima += ' '
+        }
+        for (let k = i; k <= angkaLima; k++) {
+            bintangLima += '* '
+        }
+        console.log(bintangLima)
+    }
+}
+
+segitigaLima(5)
+console.log()
+
+const segitigaEnam = (angkaEnam) => {
+    for (let i = 1; i <= angkaEnam; i++) {
+        let bintangEnam = ''
+        for (let j = i; j < angkaEnam; j++) {
+            bintangEnam += ' '
+        }
+        for (let k = 1; k <= i; k++) {
+            bintangEnam += '* '
+        }
+        console.log(bintangEnam)
+    }
+}
+
+segitigaEnam(5)
