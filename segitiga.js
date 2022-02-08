@@ -72,17 +72,17 @@
 // segitigaLima(5)
 // console.log()
 
-// const segitigaEnam = (angkaEnam) => {
-//     for (let i = 1; i <= angkaEnam; i++) {
-//         let bintangEnam = ''
-//         for (let j = i; j < angkaEnam; j++) {
-//             bintangEnam += ' '
-//         }
-//         for (let k = 1; k <= i; k++) {
-//             bintangEnam += '* '
-//         }
-//         console.log(bintangEnam)
-//     }
-// }
+const segitigaEnam = (angkaEnam) => {
+    for (let i = 1; i <= angkaEnam; i++) {
+        let bintangEnam = ''
+        for (let j = i; j < angkaEnam; j++) {
+            bintangEnam += ' '
+        }
+        for (let k = 1; k <= i; k++) {
+            bintangEnam += '* '
+        }
+        console.log(bintangEnam)
+    }
+}
 
-// segitigaEnam(5)
+segitigaEnam(5)

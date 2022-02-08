@@ -32,3 +32,16 @@ const factorial = (n) => {
 }
 
 console.log(factorial(5));
+
+// Cara lain
+// const factorial = (n) => {
+//     let value = n-1
+//     let result = BigInt(n)
+//     for (value; value > 1; value--) {
+//         result *= BigInt(value)
+//     }
+
+//     return result.toString()
+// }
+
+// console.log(factorial(5));

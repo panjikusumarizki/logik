@@ -3,10 +3,11 @@ const divideAndSort = (angka) => {
         let ubah = angka.toString().split('0')
         let proses = ubah.map(item => item.split('').sort().join(''))
         let hasil = parseInt(proses.join(''))
-        console.log(hasil)
+        
+        return hasil
     } else {
-        console.log('Parameter angka harus number !')
+        return 'Parameter harus number !'
     }
 }
 
-divideAndSort('59565')
+console.log(divideAndSort(59565));

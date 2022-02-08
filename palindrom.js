@@ -14,4 +14,4 @@ const palindrom = (kata) => {
     }
   }
     
-  palindrom('kasur');
+  palindrom('kasur rusak');

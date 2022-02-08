@@ -27,11 +27,11 @@ const fibonacciDua = (n) => {
         n1 = n2
         n2 = next
     }
-    // last = arr[arr.length-1]
-    // return last
+    last = arr[arr.length-1]
+    return last
 }
 
-console.log(fibonacciDua(7))
+// console.log(fibonacciDua(7))
 
 // Cara 2 menggunakan spread operator
 // const fibonacciDua = (n) => {
