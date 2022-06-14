@@ -7,4 +7,4 @@ const sumArray = (num) => {
     console.log(b)
 }
 
-sumArray([1,2,3,4,10,11])
+sumArray([1,2,3,4,76,90])
