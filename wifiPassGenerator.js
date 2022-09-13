@@ -1,7 +1,7 @@
 let generatePassword = '';
 let password = '';
 const characters =
-  `abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*?`;
+  `abcdefghijklmnopqrstuvwxyz!@#$%*1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ`;
 
 for (let i = 0; i < 10; i++) {
   generatePassword += characters.charAt(
