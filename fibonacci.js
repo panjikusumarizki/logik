@@ -31,7 +31,7 @@ const fibonacciDua = (n) => {
     return last
 }
 
-// console.log(fibonacciDua(7))
+console.log(fibonacciDua(7))
 
 // Cara 2 menggunakan spread operator
 // const fibonacciDua = (n) => {
