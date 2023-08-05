@@ -18,20 +18,26 @@
 // No.2
 // Cara 1
 const fibonacciDua = (n) => {
-    let n1 = 1, n2 = 1, next, arr = [], last
+    let n1 = 0, n2 = 1, next, arr = [], last
 
     for (let i = 0; i < n; i++) {
-        // arr.push(n1)
-        console.log(n1)
+        arr.push(n1)
         next = n1 + n2
         n1 = n2
         n2 = next
     }
-    last = arr[arr.length-1]
-    return last
+
+    if (arr.includes(n)) {
+        return 'yes'
+    }
+    return 'no';
+    // console.log(n1);
+    // last = arr[arr.length-1]
+    // return last
 }
 
-console.log(fibonacciDua(7))
+console.log(fibonacciDua(10))
+// fibonacciDua(7)
 
 // Cara 2 menggunakan spread operator
 // const fibonacciDua = (n) => {
