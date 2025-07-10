@@ -12,7 +12,7 @@
 //     }
 // }
 
-// fibonacciSatu(7)
+// fibonacciSatu(10)
 // console.log()
 
 // No.2
@@ -62,9 +62,9 @@ console.log(fibonacciDua(10))
 //     let n2 = 1
 //     let next = 0
 
-//     for (let i = 1; i < n; i++) {
+//     for (let i = 1; i <= n; i++) {
         
-//         while (n1 < n) {
+//         while (n1 <= n) {
 //             console.log(n1)
 //             next = n1 + n2
 //             n1 = n2
@@ -73,4 +73,4 @@ console.log(fibonacciDua(10))
 //     }
 // }
 
-// fibonacciTiga(2)
+// fibonacciTiga(7)

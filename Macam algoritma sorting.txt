@@ -1,0 +1,15 @@
+Ada banyak algoritma sorting yang berbeda untuk mengurutkan elemen-elemen dalam suatu daftar atau array. Berikut ini beberapa algoritma sorting yang umum digunakan:
+
+1. Bubble Sort:** Algoritma ini membandingkan dan menukar elemen berdekatan jika urutannya tidak benar. Proses ini berulang hingga seluruh daftar terurut. Meskipun sederhana, bubble sort kurang efisien untuk daftar besar karena memiliki kompleksitas waktu O(n^2).
+
+2. Selection Sort:** Algoritma ini memilih elemen minimum dari sisa daftar dan menukarkannya dengan elemen pertama. Selanjutnya, algoritma berlanjut dengan memilih elemen minimum dari sisa daftar yang lebih pendek. Selection sort juga memiliki kompleksitas waktu O(n^2).
+
+3. Insertion Sort:** Algoritma ini membangun daftar terurut satu elemen pada satu waktu. Setiap elemen baru diambil dari daftar asli dan ditempatkan pada posisi yang tepat dalam daftar terurut. Insertion sort cocok untuk daftar kecil atau hampir terurut.
+
+4. Merge Sort:** Algoritma ini menggunakan pendekatan "divide and conquer" dengan membagi daftar menjadi bagian-bagian lebih kecil, mengurutkan masing-masing bagian, dan menggabungkannya kembali untuk mendapatkan daftar yang terurut. Merge sort memiliki kompleksitas waktu O(n log n) dan umumnya lebih efisien untuk daftar yang lebih besar.
+
+5. Quick Sort:** Algoritma ini juga menggunakan pendekatan "divide and conquer" dengan memilih elemen tertentu sebagai pivot, kemudian mempartisi daftar menjadi bagian yang lebih kecil di sekitar pivot. Bagian-bagian ini kemudian diurutkan secara rekursif. Quick sort juga memiliki kompleksitas waktu rata-rata O(n log n), dan biasanya lebih cepat daripada merge sort dalam praktiknya.
+
+6. Heap Sort:** Algoritma ini menggunakan struktur data heap (atau pohon biner) untuk mengurutkan elemen. Heap sort memiliki kompleksitas waktu O(n log n) dan dapat efisien, tetapi kadang-kadang lebih lambat daripada quick sort atau merge sort dalam beberapa kasus.
+
+Pilihan algoritma sorting tergantung pada ukuran daftar, waktu eksekusi yang diinginkan, dan jenis data yang Anda urutkan. Beberapa algoritma lebih cocok untuk situasi tertentu daripada yang lain.
