@@ -7,5 +7,5 @@ function autocomplete(query, strings) {
 }
 
 const query = ['test', 'cake', 'joke', 'best', 'hello', 'suffix', 'etc']
-const str = 't'
+const str = 'te'
 console.log(autocomplete(str, query));
